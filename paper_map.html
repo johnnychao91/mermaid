@@ -1,0 +1,408 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+  <style>
+    body { margin: 0; background-color: #1e1e1e; }
+  </style>
+</head>
+<body>
+  <div class="mermaid">
+    
+%%{ init: { 'flowchart': { 'curve': 'monotoneY' } } }%%
+
+graph TB
+
+%%%%%%%%%% 1
+
+
+%% 2002_Evolving Neural Networks Through Augmenting Topologies, MIT
+%% Kenneth O. Stanley, Risto Miikkulainen
+NEAT["DeepNEAT NEAT
+     Stanley and Miikkulainen
+     MIT, 2002"]
+
+%% 2016_Neural Architecture Search with Reinforcement Learning, ICLR
+%% Barret Zoph, Quoc V. Le
+NAS["NAS
+    Zoph and Le
+    ICLR, 2016"]
+
+%% 2017_Large-Scale Evolution of Image Classifiers, PMLR
+%% Esteban Real, Sherry Moore, Andrew Selle, Saurabh Saxena, Yutaka Leon Suematsu, Jie Tan, Quoc V. Le, Alexey Kurakin
+LS-Evolution["LS-Evolution
+             Real et al.
+             PMLR, 2017"]
+
+%% 2017_A Genetic Programming Approach to Designing Convolutional Neural Network Architectures, GECCO
+%% M Suganuma, S Shirakawa, T Nagao
+CGP-CNN["CGP-CNN
+        Suganuma et al.
+        GECCO, 2017"]
+
+%% 2017_Genetic_CNN, ICCV
+%% Lingxi Xie, Alan Yuille
+GeNet["GeNet
+      xie and yuille
+      ICCV, 2017"]
+
+
+%%%%%%%%%% 2
+
+
+%% 2017_Evolving Deep Neural Networks, arXiv
+%% Risto Miikkulainen, Jason Liang, Elliot Meyerson, Aditya Rawal, Dan Fink, Olivier Francon, Bala Raju, Hormoz Shahrzad, Arshak Navruzyan, Nigel Duffy, Babak Hodjat
+CoDeepNEAT["CoDeepNEAT
+           Miikkulainen et al.
+           arXiv, 2017"]
+
+%% 2018_Practical Block-wise Neural Network Architecture Generation, IEEE/CVF
+%% Zhao Zhong, Junjie Yan, Wei Wu, Jing Shao, Cheng-Lin Liu
+Block-QNN["Block-QNN
+          Zhong et al.
+          IEEE/CVF, 2018"]
+
+%% 2018_Memetic evolution of deep neural networks, GECCO
+%% PR Lorenzo, J Nalepa
+ME["ME
+   Lorenzo et al.
+   GECCO, 2018"]
+
+%% 2018_Simple and efficient architecture search for Convolutional Neural Networks, ICLR
+%% Thomas Elsken, Jan-Hendrik Metzen, Frank Hutter
+NASH["NASH
+     Elsken et al.
+     ICLR, 2018"]
+
+
+%%%%%%%%%% 3
+
+
+%% 2018_DPP-Net_DPP-Net Device-aware Progressive Search for Pareto-optimal Neural Architectures, ECCV
+%% JD Dong, AC Cheng, DC Juan, W Wei, M Sun
+DPP-Net["DPP-Net
+        Dong et al.
+        ECCV, 2018"]
+
+
+%%%%%%%%%% 4
+
+
+%% 2018_Hierarchical Representations For Efficient Architecture Search, ICLR
+%% H Liu, K Simonyan, O Vinyals, C Fernando, K Kavukcuoglu
+HierarchicalEvolution["Hierarchical Evolution
+     Liu et al.
+     ICLR, 2018"]
+
+
+%%%%%%%%%% 4.5
+
+
+%% 2021_ModuleNet Knowledge-Inherited Neural Architecture Search, IEEE
+%% Yaran Chen, Ruiyuan Gao, Fenggang Liu, Dongbin Zhao
+ModuleNet["ModuleNet
+          Chen et al.
+          IEEE, 2021"]
+
+%% 2019_Regularized Evolutionary Algorithm for Dynamic Neural Topology Search, Springer
+%% Cristiano Saltori, Subhankar Roy, Nicu Sebe, Giovanni Iacca 
+REA["REA
+    Saltori et al.
+    Springer, 2019"]
+
+%% 2022_Efficient guided evolution for neural architecture search, GECCO
+%% Vasco Lopes, Miguel Santos, Bruno Degardin, Luís A. Alexandre
+G-EA["G-EA
+      Lopes et al.
+      GECCO, 2022"]
+
+%% 2022_A Training-free Genetic Neural Architecture Search, ICEA
+%% Meng-Ting Wu, Hung-I Lin, Chun-Wei Tsai
+GA-NINASWOT["GA-NINASWOT
+           Wu et al.
+           ICEA, 2022"]
+
+%% 2019_Regularized Evolutionary Algorithm for Dynamic Neural Topology Search, Springer
+%% Cristiano Saltori, Subhankar Roy, Nicu Sebe, Giovanni Iacca 
+REA["REA
+    Saltori et al.
+    Springer, 2019"]
+
+
+%%%%%%%%%% 5
+
+
+%% 2018_Deep Learning Architecture Searchby Neuro-Cell-Based Evolution with Function-Preserving Mutations, Springer
+%% Martin Wistuba
+NDB-NAS["NDB-NAS
+        Wistuba
+        Springer, 2018"]
+
+%% 2020_Surrogate-Assisted Evolutionary Deep Learning Using an End-to-End Random Forest-Based Performance Predictor, IEEE
+%% Yanan Sun, Handing Wang, Bing Xue, Yaochu Jin, Gary G. Yen, Mengjie Zhang
+AE-CNN+E2EPP["AE-CNN+E2EPP
+            Sun et al.
+            IEEE, 2020"]
+
+%% 2019_Aging evolution for image classifier architecture search, AAAI
+%% Esteban Real, Alok Aggarwal, Yanping Huang, Quoc V. Le
+AmoebaNet-A["AmoebaNet-A
+            Real et al.
+            AAAI, 2019"]
+                
+%% 2018_Path-Level Network Transformation for Efficient Architecture Search, ICML
+%% Han Cai, Jiacheng Yang, Weinan Zhang, Song Han, Yong Yu
+Path-Level-EAS["Path-Level-EAS
+               Cai et al.
+               ICML, 2018"]
+
+
+%%%%%%%%%% 6
+ 
+
+%% 2020_Sampled Training and Node Inheritance for Fast Evolutionary Neural Architecture Search, arXiv
+%% Haoyu Zhang, Yaochu Jin, Ran Cheng, Kuangrong Hao
+SI-ENAS["SI-ENAS
+        Zhong et al.
+        arXiv, 2020"]
+
+%% 2019_Efficient multi-objective neural architecture search via lamarckian evolution, ICLR
+%% Thomas Elsken, Jan Hendrik Metzen, Frank 
+LEMONADE["LEMONADE
+         Elsken et al.
+         ICLR, 2019"]
+
+
+%%%%%%%%%% 7
+
+
+%% 2021_Multiobjective_Evolutionary_Design_of_Deep_Convolutional_Neural_Networks_for_Image_Classification, CVPR/IEEE
+%% Zhichao Lu, Ian Whalen, Yashesh Dhebar, Kalyanmoy Deb, Erik D. Goodman, Wolfgang Banzhaf
+NSGANet["NSGANet
+        Lu et al.
+        CVPR/IEEE, 2019"]
+
+%% 2022_Evolutionary neural architecture search based on evaluation correction and functional units, Elsevier
+%% Ronghua Shang, Songling Zhu, Jinhong Ren, Hangcheng Liu, Licheng Jiao
+EF-ENAS["EF-ENAS
+        Shang et al.
+        Elsevier, 2022"]
+
+%% 2019_EENA: Efficient evolution of neural architecture, ICCV
+%% Hui Zhu, Zhulin An, Chuanguang Yang, Kaiqiang Xu, Erhu Zhao, Yongjun Xu  
+EENA["EENA
+    Zhu et al.
+    ICCV, 2019"]
+
+
+%%%%%%%%%% 8
+
+
+%% 2020_CARS_CARS Continuous Evolution for Efficient Neural Architecture Search, CVPR
+%% Zhaohui Yang, Yunhe Wang, Xinghao Chen, Boxin Shi, Chao Xu, Chunjing Xu, Qi Tian, Chang Xu
+CARS["CARS
+     Yang et al.
+     CVPR, 2020"]
+
+%% 2022_Joint design and compression of convolutional neural networks as a Bi-level optimization problem, Springer
+%% Hassen Louati, Slim Bechikh, Ali Louati, Abdulaziz Aldaej, Lamjed Ben Said 
+Bi-CNN-D-C["Bi-CNN-D-C
+           Louati et al.
+           Springer, 2022"]
+
+%% 2020_Efficient Evolutionary Deep Neural Architecture Search (NAS) by Noisy Network Morphism Mutation, Springer
+%% Yiming Chen, Tianci Pan, Cheng He, Ran Cheng 
+EEDNAS-NNMM["EEDNAS-NNMM
+            Chen et al.
+            Springer, 2020"]
+
+
+%%%%%%%%%% 9
+
+%% 2024_G-EvoNAS Evolutionary Neural Architecture Search Based on Network Growth, arXiv
+%% Juan Zou, Weiwei Jiang, Yizhang Xia, Yuan Liu, Zhanglu Hou
+G-EvoNAS["G-EvoNAS
+         Zou et al.
+         arXiv, 2024"]
+
+
+%%%%%%%%%%
+
+CoDeepNEAT --> NEAT
+CoDeepNEAT --> NAS
+
+Block-QNN --> NAS
+
+HierarchicalEvolution ---> CoDeepNEAT 
+HierarchicalEvolution ---> Block-QNN
+HierarchicalEvolution --> DPP-Net
+%%ESHR --> GeNet
+%%ESHR --> LS-Evolution
+
+DPP-Net --> LS-Evolution
+DPP-Net --> NASH
+
+ME --> LS-Evolution
+ME --> CGP-CNN
+
+NASH --> CGP-CNN
+NASH --> GeNet
+
+NDB-NAS --> HierarchicalEvolution
+%%NDB-NAS --> CGP-CNN
+%%NDB-NAS --> LS-Evolution
+
+AE-CNN+E2EPP --> HierarchicalEvolution
+%%AE-CNN+E2EPP --> LS-Evolution
+%%AE-CNN+E2EPP --> GeNet
+
+AmoebaNet-A --> HierarchicalEvolution
+AmoebaNet-A --> ModuleNet 
+%%AmoebaNet-A --> GeNet
+
+SI-ENAS --> AE-CNN+E2EPP
+SI-ENAS --> AmoebaNet-A
+%%SI-ENAS --> HierarchicalEvolution
+%%SI-ENAS --> GeNet
+%%SI-ENAS --> LS-Evolution
+%%SI-ENAS --> CGP-CNN
+%%SI-ENAS --> CoDeepNEAT
+
+LEMONADE --> AmoebaNet-A
+%%LEMONADE --> HierarchicalEvolution
+%%LEMONADE --> DPP-Net
+
+Path-Level-EAS --> HierarchicalEvolution
+
+NSGANet --> LEMONADE
+%%NSGANet --> AmoebaNet-A
+%%NSGANet --> LS-Evolution
+%%NSGANet --> CGP-CNN
+
+EF-ENAS --> LEMONADE
+%%EF-ENAS --> LS-Evolution
+%%EF-ENAS --> CGP-CNN
+%%EF-ENAS --> CNN-GA  
+%%EF-ENAS --> AE-CNN  
+%%EF-ENAS --> EDEN  
+%%EF-ENAS --> EvoCNN  
+%%EF-ENAS --> DAGCNN  
+%%EF-ENAS --> DENSER  
+%%EF-ENAS --> IPPSO  
+%%EF-ENAS --> DECNN  
+%%EF-ENAS --> FGP  
+
+EENA --> LEMONADE
+EENA --> Path-Level-EAS
+%%EENA --> NASH
+%%EENA --> LS-Evolution
+%%EENA --> HierarchicalEvolution
+%%EENA --> AmoebaNet-A
+
+CARS --> NSGANet
+%%CARS --> LEMONADE
+%%CARS --> HierarchicalEvolution
+%%CARS --> AmoebaNet-A
+
+EEDNAS-NNMM --> EENA
+%%EEDNAS-NNMM --> HierarchicalEvolution
+%%EEDNAS-NNMM --> Path-Level-EAS
+%%EEDNAS-NNMM --> AmoebaNet-A
+%%EEDNAS-NNMM --> LS-Evolution
+
+Bi-CNN-D-C --> EF-ENAS
+Bi-CNN-D-C --> NSGANet
+%%Bi-CNN-D-C --> AmoebaNet-A
+%%Bi-CNN-D-C --> LS-Evolution
+%%Bi-CNN-D-C --> GeNet
+%%Bi-CNN-D-C --> CNN-GA
+%%Bi-CNN-D-C --> BLOP-CNN
+
+GA-NINASWOT --> REA
+
+G-EA --> GA-NINASWOT
+%%G-EA --> REA
+
+ModuleNet --> G-EA 
+
+G-EvoNAS --> CARS
+%%G-EvoNAS --> AmoebaNet-A
+%%G-EvoNAS --> NSGANet
+%%G-EvoNAS --> NASNet
+%%G-EvoNAS --> PNAS
+%%G-EvoNAS --> ENAS
+%%G-EvoNAS --> SNAS
+%%G-EvoNAS --> DARTS
+%%G-EvoNAS --> PDARTS
+%%G-EvoNAS --> PC-DARTS
+%%G-EvoNAS --> MOEA-PS
+%%G-EvoNAS --> Proxyless NAS
+%%G-EvoNAS --> CNN-GA
+%%G-EvoNAS --> AE-CNN
+%%G-EvoNAS --> EPCNAS-C
+%%G-EvoNAS --> SI-EvoNAS
+%%G-EvoNAS --> DNAS
+%%G-EvoNAS --> MNasNet-A2
+%%G-EvoNAS --> FBNet-C
+%%G-EvoNAS --> ShuffleNetV2
+
+
+classDef default stroke:#ffffff,stroke-width:2px,fill:#111827,color:#ffffff,font-size:16px;
+classDef ENAS stroke:#ffffff,stroke-width:2px,fill:#111827,color:#ffffff,font-size:16px;
+classDef NAS stroke:#a19a86,stroke-width:2px,fill:#111827,color:#ffffff,font-size:16px;
+classDef important stroke:#ff4444,stroke-width:2px,fill:#111827,color:#ffffff,font-size:16px;
+classDef presented fill:#065f46;
+classDef presenting fill:#1e40af;
+classDef hidden display: none;
+
+class NAS NAS
+class NSGANet,LS-Evolution,CGP-CNN,GeNet,HierarchicalEvolution,AmoebaNet-A,LEMONADE,EENA important
+class LS-Evolution,HierarchicalEvolution,AmoebaNet-A presented
+class AmoebaNet-A presenting
+
+linkStyle default stroke:#ffffff,stroke-width:3.5px;
+
+
+
+subgraph  Work in progress.
+%% ENAS
+
+
+%% 2024_Delta-NAS_Delta-NAS Difference of Architecture Encoding for Predictor-based Evolutionary Neural Architecture Search, arXiv
+%% Arjun Sridhar, Yiran Chen
+Delta-NAS["Delta-NAS
+          Sridhar et al.
+          arXiv, 2024"]
+
+%% 2020_Evo-NAS_Evo-NAS Evolutionary-Neural Hybrid Agent for Architecture Search, ICLR
+%% Krzysztof Maziarz, Mingxing Tan, Andrey Khorlin, Kuang-Yu Samuel Chang, Andrea Gesmundo
+Evo-NAS["Evo-NAS
+         Maziarz et al.
+         ICLR, 2020"]
+
+
+%%Krzysztof Maziarz, Mingxing Tan, Andrey Khorlin, Kuang-Yu Samuel Chang, Andrea Gesmundo
+
+
+
+
+
+%%Path-Level-EAS ~~~ REA
+
+%% NAS
+end
+
+
+
+%%%% useful links
+%%https://www.connectedpapers.com/main/b755b033d46ffef4f410ce28c85f64a2b9f3ba01/Deep-Learning-Architecture-Search-by-Neuro%20Cell%20Based-Evolution-with-Function%20Preserving-Mutations/graph
+%%https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.3.0/mermaid.js
+
+  </div>
+  <script>
+    mermaid.initialize({"theme": "dark", "themeVariables": {"primaryColor": "#ffcc00", "tertiaryColor": "#ffffff", "fontFamily": "Calibri, 'Microsoft JhengHei', Arial, sans-serif", "lineColor": "#ffffff", "edgeLabelBackground": "#333333"}, "flowchart": {"curve": "basis", "rankSpacing": 70, "nodeSpacing": 40}, "sequence": {"showSequenceNumbers": true, "actorMargin": 50}, "gantt": {"titleTopMargin": 20, "barHeight": 25, "barGap": 5}, "logLevel": 1, "securityLevel": "strict", "startOnLoad": true});
+  </script>
+</body>
+</html>
