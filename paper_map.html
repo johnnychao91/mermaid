@@ -60,9 +60,9 @@ CoDeepNEAT["CoDeepNEAT
 
 %% 2018_Practical Block-wise Neural Network Architecture Generation, IEEE/CVF
 %% Zhao Zhong, Junjie Yan, Wei Wu, Jing Shao, Cheng-Lin Liu
-Block-QNN["Block-QNN
-          Zhong et al.
-          IEEE/CVF, 2018"]
+%%Block-QNN["Block-QNN
+%%          Zhong et al.
+%%          IEEE/CVF, 2018"]
 
 %% 2018_Memetic evolution of deep neural networks, GECCO
 %% PR Lorenzo, J Nalepa
@@ -233,10 +233,10 @@ G-EvoNAS["G-EvoNAS
 CoDeepNEAT --> NEAT
 CoDeepNEAT --> NAS
 
-Block-QNN --> NAS
+%%Block-QNN --> NAS
 
 HierarchicalEvolution ---> CoDeepNEAT 
-HierarchicalEvolution ---> Block-QNN
+%%HierarchicalEvolution ---> Block-QNN
 HierarchicalEvolution --> DPP-Net
 %%ESHR --> GeNet
 %%ESHR --> LS-Evolution
@@ -360,7 +360,7 @@ classDef hidden display: none;
 class NAS NAS
 class NSGANet,LS-Evolution,CGP-CNN,GeNet,HierarchicalEvolution,AmoebaNet-A,LEMONADE,EENA important
 class LS-Evolution,HierarchicalEvolution,AmoebaNet-A presented
-class AmoebaNet-A presenting
+class CGP-CNN,DPP-Net,NSGANet,GeNet presenting
 
 linkStyle default stroke:#ffffff,stroke-width:3.5px;
 
